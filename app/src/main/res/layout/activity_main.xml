@@ -19,9 +19,13 @@
     />
     <Button
             android:id="@+id/roll_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="85dp"
             android:layout_gravity="center_horizontal"
-            android:text="@string/roll"/>
+            android:text="@string/roll"
+            android:textColor="@color/blue_50"
+            android:background="@drawable/round_button"
+    />
+
 
 </LinearLayout>
