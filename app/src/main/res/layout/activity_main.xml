@@ -9,21 +9,18 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-    <TextView
-            android:id="@+id/result_text"
+    <ImageView
+            android:id="@+id/dice_Image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/dice_number"
-            android:layout_margin="10dp"
-            android:textSize="30sp"
-            />
-
+            android:src="@drawable/dice_1"
+    />
     <Button
             android:id="@+id/roll_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/roll" />
+            android:text="@string/roll"/>
 
 </LinearLayout>
